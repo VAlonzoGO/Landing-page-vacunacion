@@ -1,0 +1,59 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+.logo {
+    color: rgb(32,66,202);
+    font-size: 1rem;
+}
+.menu {
+    display: flex;
+}
+
+.nav .menu .main-menu li {
+    list-style: none;
+    display: inline;
+    padding-inline-start: 0;
+}
+
+.nav .menu .main-menu li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(153,167,185);
+    padding: 0 2rem;
+}
+
+.nav .menu .main-menu li a:hover {
+    text-decoration: underline;
+}
+
+.nav .button  button{
+    border: none;
+    background-color:rgb(41,73,199);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.80rem;
+    padding: .5rem;
+}
+
+.section1 {
+    background-color: aqua;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.section1 picture {
+    background-color: blue;
+}
